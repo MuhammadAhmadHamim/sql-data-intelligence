@@ -17,5 +17,6 @@ A curated collection of my database engineering work, ranging from complex query
 /sql-data-intelligence
   ├── 🏗️ Schema_Design/      # ER Diagrams and DDL scripts (Normalization/Constraints)
   ├── 🔍 Case_Studies/       # SQL scripts answering specific business questions
+  |     ├── Intro_challenges_SQLite/ 
   ├── 🧪 Optimization/       # Query performance tuning (Indexing/Execution Plans)
   └── 🏆 Certifications/     # Verified HackerRank and Oracle/MS course badges
