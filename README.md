@@ -15,6 +15,36 @@ A curated collection of my database engineering work, ranging from complex query
 
 ```text
 /sql-data-intelligence
+│
+├── 📘 01_Fundamentals/ 
+│   ├── SELECT_Basics/
+│   ├── Filtering_WHERE/
+│   ├── Sorting_ORDER_BY/
+│   ├── Arithmetic_Expressions/
+│   ├── String_Functions/
+│   ├── Date_Functions/
+│   ├── Aggregate_Functions/
+│   ├── GROUP_BY_HAVING/
+│   ├── Subqueries/
+│   ├── Joins_Multiple_Tables/
+│   ├── Window_Functions/
+│
+├── 🏗️ 02_Database_Design/ 
+│   ├── ER_Diagrams/
+│
+├── 🔍 03_Case_Studies/ 
+│   ├── SQLite/
+│   │   ├── Intro_Challenges/
+│   │
+│   ├── MySQL/
+│
+├── 🚀 04_Projects/ 
+│   ├── Imaginary_Product_Project/
+│
+├── 🏆 05_Certifications/ 
+│
+└── README.md
+/sql-data-intelligence
   ├── 🏗️ Schema_Design/      # ER Diagrams and DDL scripts (Normalization/Constraints)
   ├── 🔍 Case_Studies/       # SQL scripts answering specific business questions
   |     ├── 📁 Intro_challenges_SQLite/ 
