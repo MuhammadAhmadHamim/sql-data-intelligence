@@ -29,4 +29,3 @@ FROM (
 GROUP BY brand
 HAVING avg_density < 0.8
 ORDER BY avg_density
- 
