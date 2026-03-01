@@ -37,7 +37,8 @@ A curated collection of my database engineering work, ranging from complex query
 │   │   ├── 📂 Intro_Challenges/
 │   │
 │   ├── 📂 MySQL/
-│
+│   │   ├── 📂 Practice_queries/
+|
 ├── 🚀 04_Projects/ 
 │   ├── 📂 Imaginary_Product_Project/
 │
