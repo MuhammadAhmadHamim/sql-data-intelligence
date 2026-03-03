@@ -179,7 +179,7 @@ ORDER BY depth_rank;
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/sql-data-intelligence.git
+git clone https://github.com/MuhammadAhmadHamim/sql-data-intelligence.git
 cd sql-data-intelligence
 
 # Run any .sql file in MySQL
