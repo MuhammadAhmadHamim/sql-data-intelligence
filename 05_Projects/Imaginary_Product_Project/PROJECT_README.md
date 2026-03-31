@@ -285,6 +285,7 @@ Imaginary_Product_Project/
 ├── schema.sql                   # Table creation scripts
 ├── sample_data.sql              # Sample data for testing
 ├── quality_analysis.sql         # Complete solution query
+|
 └── challenge_breakdown/
     ├── 01_adjust_watt.sql
     ├── 02_calculate_quality.sql
