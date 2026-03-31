@@ -281,7 +281,7 @@ By completing this project, you will:
 
 ```
 Imaginary_Product_Project/
-├── README.md                    # This file
+├── PROJECT_README.md            # This file
 ├── schema.sql                   # Table creation scripts
 ├── sample_data.sql              # Sample data for testing
 ├── quality_analysis.sql         # Complete solution query
