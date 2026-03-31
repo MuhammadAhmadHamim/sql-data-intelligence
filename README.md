@@ -33,11 +33,11 @@ Unlike the previous semesters, this one isn't sealed. New queries get added. New
 ```
 sql-data-intelligence/
 │
-├── 📘  01_Fundamentals/
+├── 📘 01_SQL_Fundamentals/
 │       ├── SELECT_Basics/
 │       ├── Filtering_WHERE/
 │       ├── Sorting_ORDER_BY/
-│       ├── Arithmetic_Expressions/
+│       ├── Arithmetic_Operations/
 │       ├── String_Functions/
 │       ├── Date_Functions/
 │       ├── Aggregate_Functions/
@@ -46,20 +46,35 @@ sql-data-intelligence/
 │       ├── Joins_Multiple_Tables/
 │       └── Window_Functions/
 │
-├── 🏗️  02_Database_Design/
+├── 🏗️ 02_Database_Design/
 │       └── ER_Diagrams/
 │
-├── 🔍  03_Case_Studies/
+├── ⚡ 03_Advanced_SQL/
+│       └── → Advanced SQL concepts such as CTEs, recursive queries,
+│             indexing, and query optimization techniques.
+│
+├── ⚙️ 04_SQL_Programming/
+│       └── → Database programming concepts including views,
+│             triggers, and stored procedures.
+│
+├── 🔍 05_Case_Studies/
 │       ├── SQLite/
 │       │   └── Intro_Challenges/
 │       └── MySQL/
-│           └── Practice_Queries/
+│           └── Practice_queries/
 │
-├── 🚀  04_Projects/
+├── 🚀 06_Projects/
 │       └── Imaginary_Product_Project/
+│               → This project will simulate a real-world product system
+│                 including schema design, operations, and analytical queries.
 │
-├── 🏆  05_Certifications/
-│       └── [in progress]
+├── 🐍 07_SQL_with_Python/
+│       └── → Integration of SQL with Python for data extraction,
+│             analysis, and workflow automation.
+│
+├── 🏆 08_Certifications/
+│       └── → Verified certifications and achievements from platforms
+│             like HackerRank, Oracle, etc.
 │
 └── README.md
 ```
@@ -107,7 +122,40 @@ Good queries start with good schemas. This chapter is about learning to *design*
 </details>
 
 <details>
-<summary><b>🔍 03 — Case Studies &nbsp;|&nbsp; Real Engines, Real Problems</b></summary>
+<summary><b>⚡ 03 — Advanced SQL &nbsp;|&nbsp; Beyond the Basics</b></summary>
+<br/>
+
+This chapter extends SQL beyond standard querying into more powerful and expressive constructs. It focuses on writing cleaner, more efficient, and more scalable queries.
+
+Planned topics include:
+
+- Common Table Expressions (CTEs)
+- Recursive queries
+- Query optimization techniques
+- Indexing fundamentals
+
+> This is where SQL starts to feel less like a query language and more like a system design tool.
+
+</details>
+
+<details>
+<summary><b>⚙️ 04 — SQL Programming &nbsp;|&nbsp; Logic Inside the Database</b></summary>
+<br/>
+
+This section explores how logic can live inside the database itself, enabling automation and reusable data structures.
+
+Planned topics include:
+
+- Views (reusable query abstractions)
+- Triggers (event-driven automation)
+- Stored procedures (where supported)
+
+> Instead of repeatedly querying data, this layer focuses on building reusable and intelligent database components.
+
+</details>
+
+<details>
+<summary><b>🔍 05 — Case Studies &nbsp;|&nbsp; Real Engines, Real Problems</b></summary>
 <br/>
 
 Two database engines. Two different contexts. Same SQL discipline applied across both.
@@ -121,7 +169,7 @@ The industry-standard relational engine. Practice queries here deal with more co
 </details>
 
 <details>
-<summary><b>🚀 04 — Projects &nbsp;|&nbsp; Putting It All Together</b></summary>
+<summary><b>🚀 06 — Projects &nbsp;|&nbsp; Putting It All Together</b></summary>
 <br/>
 
 **Imaginary Product Project** — A self-contained database project built around a fictional product/business domain. Schema designed from scratch, populated with data, and queried to answer real business-style questions.
@@ -131,7 +179,24 @@ This is where the fundamentals stop being exercises and start being *applied*.
 </details>
 
 <details>
-<summary><b>🏆 05 — Certifications &nbsp;|&nbsp; In Progress</b></summary>
+<summary><b>🐍 07 — SQL with Python &nbsp;|&nbsp; From Queries to Workflows</b></summary>
+<br/>
+
+SQL doesn’t exist in isolation in real-world systems. This chapter introduces integration with Python for building data workflows and analytical pipelines.
+
+Planned topics include:
+
+- Connecting to databases using Python
+- Executing SQL queries programmatically
+- Fetching and processing results
+- Combining SQL with data analysis libraries
+
+> This is the bridge between database querying and real-world data applications.
+
+</details>
+
+<details>
+<summary><b>🏆 08 — Certifications &nbsp;|&nbsp; In Progress</b></summary>
 <br/>
 
 This folder is reserved for completed SQL certifications and their associated materials. Currently being filled — check back as the semester progresses.
