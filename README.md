@@ -49,30 +49,30 @@ sql-data-intelligence/
 ├── 🏗️ 02_Database_Design/
 │       └── ER_Diagrams/
 │
-├── ⚡ 03_Advanced_SQL/
-│       └── → Advanced SQL concepts such as CTEs, recursive queries,
-│             indexing, and query optimization techniques.
+├── ⚡ 03_Advanced_Topics/
+│       ├── CTEs_Recursive_Queries/
+│       ├── Query_Optimization/
+│       ├── Indexing/
+│       ├── Views/
+│       ├── Triggers/
+│       └── Stored_Procedures/
 │
-├── ⚙️ 04_SQL_Programming/
-│       └── → Database programming concepts including views,
-│             triggers, and stored procedures.
-│
-├── 🔍 05_Case_Studies/
+├── 🔍 04_Case_Studies/
 │       ├── SQLite/
 │       │   └── Intro_Challenges/
 │       └── MySQL/
 │           └── Practice_queries/
 │
-├── 🚀 06_Projects/
+├── 🚀 05_Projects/
 │       └── Imaginary_Product_Project/
 │               → This project will simulate a real-world product system
 │                 including schema design, operations, and analytical queries.
 │
-├── 🐍 07_SQL_with_Python/
+├── 🐍 06_SQL_with_Python/
 │       └── → Integration of SQL with Python for data extraction,
 │             analysis, and workflow automation.
 │
-├── 🏆 08_Certifications/
+├── 🏆 07_Certifications/
 │       └── → Verified certifications and achievements from platforms
 │             like HackerRank, Oracle, etc.
 │
@@ -122,40 +122,26 @@ Good queries start with good schemas. This chapter is about learning to *design*
 </details>
 
 <details>
-<summary><b>⚡ 03 — Advanced SQL &nbsp;|&nbsp; Beyond the Basics</b></summary>
+<summary><b>⚡ 03 — Advanced Topics &nbsp;|&nbsp; Beyond Queries, Into Systems</b></summary>
 <br/>
 
-This chapter extends SQL beyond standard querying into more powerful and expressive constructs. It focuses on writing cleaner, more efficient, and more scalable queries.
+This chapter brings together everything that makes SQL powerful beyond basic querying — from writing cleaner, more expressive queries to building intelligence directly into the database itself.
 
-Planned topics include:
+| Module | What's Covered |
+|---|---|
+| **CTEs & Recursive Queries** | Common Table Expressions, hierarchical data traversal, self-referencing structures |
+| **Query Optimization** | Execution plans, cost analysis, writing efficient queries |
+| **Indexing** | Index types, when to index, trade-offs, and performance impact |
+| **Views** | Reusable query abstractions, security layers, simplifying complex joins |
+| **Triggers** | Event-driven automation, maintaining data integrity, audit trails |
+| **Stored Procedures** | Encapsulating business logic, parameterized operations, database-side functions |
 
-- Common Table Expressions (CTEs)
-- Recursive queries
-- Query optimization techniques
-- Indexing fundamentals
-
-> This is where SQL starts to feel less like a query language and more like a system design tool.
+> This is where SQL stops being just a query language and becomes a system design tool — combining expressive syntax with database-embedded logic.
 
 </details>
 
 <details>
-<summary><b>⚙️ 04 — SQL Programming &nbsp;|&nbsp; Logic Inside the Database</b></summary>
-<br/>
-
-This section explores how logic can live inside the database itself, enabling automation and reusable data structures.
-
-Planned topics include:
-
-- Views (reusable query abstractions)
-- Triggers (event-driven automation)
-- Stored procedures (where supported)
-
-> Instead of repeatedly querying data, this layer focuses on building reusable and intelligent database components.
-
-</details>
-
-<details>
-<summary><b>🔍 05 — Case Studies &nbsp;|&nbsp; Real Engines, Real Problems</b></summary>
+<summary><b>🔍 04 — Case Studies &nbsp;|&nbsp; Real Engines, Real Problems</b></summary>
 <br/>
 
 Two database engines. Two different contexts. Same SQL discipline applied across both.
@@ -169,7 +155,7 @@ The industry-standard relational engine. Practice queries here deal with more co
 </details>
 
 <details>
-<summary><b>🚀 06 — Projects &nbsp;|&nbsp; Putting It All Together</b></summary>
+<summary><b>🚀 05 — Projects &nbsp;|&nbsp; Putting It All Together</b></summary>
 <br/>
 
 **Imaginary Product Project** — A self-contained database project built around a fictional product/business domain. Schema designed from scratch, populated with data, and queried to answer real business-style questions.
@@ -179,10 +165,10 @@ This is where the fundamentals stop being exercises and start being *applied*.
 </details>
 
 <details>
-<summary><b>🐍 07 — SQL with Python &nbsp;|&nbsp; From Queries to Workflows</b></summary>
+<summary><b>🐍 06 — SQL with Python &nbsp;|&nbsp; From Queries to Workflows</b></summary>
 <br/>
 
-SQL doesn’t exist in isolation in real-world systems. This chapter introduces integration with Python for building data workflows and analytical pipelines.
+SQL doesn't exist in isolation in real-world systems. This chapter introduces integration with Python for building data workflows and analytical pipelines.
 
 Planned topics include:
 
@@ -196,7 +182,7 @@ Planned topics include:
 </details>
 
 <details>
-<summary><b>🏆 08 — Certifications &nbsp;|&nbsp; In Progress</b></summary>
+<summary><b>🏆 07 — Certifications &nbsp;|&nbsp; In Progress</b></summary>
 <br/>
 
 This folder is reserved for completed SQL certifications and their associated materials. Currently being filled — check back as the semester progresses.
