@@ -161,7 +161,7 @@ The industry-standard relational engine. Practice queries here deal with more co
 <summary><b>🚀 05 — Projects &nbsp;|&nbsp; Putting It All Together</b></summary>
 <br/>
 
-**Imaginary Product Project** — A self-contained database project built around a fictional product/business domain. Schema designed from scratch, populated with data, and queried to answer real business-style questions.
+**Imaginary Product Project** — A self-contained database project simulating a product factory's quality control system. You are a procurement specialist analyzing technical specifications across four product lines to identify the highest-quality parts for purchase. The project features custom schema design, multi-table analysis with CTEs, advanced filtering logic, and cross-product quality aggregation to answer the core business question: "Which part designs consistently deliver the best performance across all product lines?"
 
 This is where the fundamentals stop being exercises and start being *applied*.
 
