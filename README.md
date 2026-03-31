@@ -65,8 +65,11 @@ sql-data-intelligence/
 │
 ├── 🚀 05_Projects/
 │       └── Imaginary_Product_Project/
-│               → This project will simulate a real-world product system
-│                 including schema design, operations, and analytical queries.
+│           ├── PROJECT_README.md            # This file
+|           ├── schema.sql                   # Table creation scripts
+|           ├── sample_data.sql              # Sample data for testing
+|           ├── quality_analysis.sql         # Complete solution query
+|           └── challenges_breakdown/
 │
 ├── 🐍 06_SQL_with_Python/
 │       └── → Integration of SQL with Python for data extraction,

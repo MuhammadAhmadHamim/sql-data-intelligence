@@ -286,7 +286,7 @@ Imaginary_Product_Project/
 ├── sample_data.sql              # Sample data for testing
 ├── quality_analysis.sql         # Complete solution query
 |
-└── challenge_breakdown/
+└── challenges_breakdown/
     ├── 01_adjust_watt.sql
     ├── 02_calculate_quality.sql
     ├── 03_filter_parts.sql
