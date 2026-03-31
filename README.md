@@ -50,12 +50,8 @@ sql-data-intelligence/
 │       └── ER_Diagrams/
 │
 ├── ⚡ 03_Advanced_Topics/
-│       ├── CTEs_Recursive_Queries/
-│       ├── Query_Optimization/
-│       ├── Indexing/
-│       ├── Views/
-│       ├── Triggers/
-│       └── Stored_Procedures/
+│       └── → Exploration of advanced topics of SQL including CTEs_Recursive_Queries, Query_Optimization, 
+|             Indexing, Views, Triggers, Stored_Procedures and many more.
 │
 ├── 🔍 04_Case_Studies/
 │       ├── SQLite/
@@ -65,7 +61,7 @@ sql-data-intelligence/
 │
 ├── 🚀 05_Projects/
 │       └── Imaginary_Product_Project/
-│           ├── PROJECT_README.md            # This file
+│           ├── PROJECT_README.md            # README file
 |           ├── schema.sql                   # Table creation scripts
 |           ├── sample_data.sql              # Sample data for testing
 |           ├── quality_analysis.sql         # Complete solution query
@@ -237,10 +233,10 @@ git clone https://github.com/MuhammadAhmadHamim/sql-data-intelligence.git
 cd sql-data-intelligence
 
 # Run any .sql file in MySQL
-mysql -u root -p your_database < 03_Case_Studies/MySQL/Practice_Queries/query.sql
+mysql -u root -p your_database < 04_Case_Studies/MySQL/Practice_queries/01_practiceQueries.sql
 
 # Run any .sql file in SQLite
-sqlite3 database.db < 03_Case_Studies/SQLite/Intro_Challenges/challenge.sql
+sqlite3 database.db < 04_Case_Studies/SQLite/Intro_Challenges/01_parliamentaryElection.sql
 ```
 
 > **MySQL:** v8.0+ recommended &nbsp;|&nbsp; **SQLite:** v3.x &nbsp;|&nbsp; **GUI:** DBeaver, TablePlus, or MySQL Workbench
