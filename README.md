@@ -44,14 +44,24 @@ sql-data-intelligence/
 │       ├── GROUP_BY_HAVING/
 │       ├── Subqueries/
 │       ├── Joins_Multiple_Tables/
-│       └── Window_Functions/
+│       ├── Window_Functions/
+│       ├── INSERT_Data/                    
+│       ├── UPDATE_DELETE_Data/             
+│       ├── Transactions_Basics/
+|       └── Theory/
+|           ├── Relational_Algebra/            
 │
 ├── 🏗️ 02_Database_Design/
-│       └── ER_Diagrams/
+│       ├── ER_Diagrams/
+│       ├── CREATE_TABLE/                  
+│       ├── Data_Types/                     
+│       ├── Constraints/
+│       └── Normalization/                    
 │
 ├── ⚡ 03_Advanced_Topics/
-│       └── → Exploration of advanced topics of SQL including CTEs_Recursive_Queries, Query_Optimization, 
-|             Indexing, Views, Triggers, Stored_Procedures and many more.
+│       └── → Exploration of advanced topics of SQL including CTEs_Recursive_Queries,
+|               Query_Optimization, Indexing, ALTER_DROP_Operations, MERGE_UPSERT,
+|                Advanced_Transactions, Views, Triggers, Stored_Procedures and many more.
 │
 ├── 🔍 04_Case_Studies/
 │       ├── SQLite/
@@ -85,9 +95,8 @@ sql-data-intelligence/
 <details>
 <summary><b>📘 01 — Fundamentals &nbsp;|&nbsp; The Query Foundation</b></summary>
 <br/>
-
 Every SQL skill is built on these. This chapter is a thorough ground-up study of the language — not just syntax, but *thinking relationally*.
-
+ 
 | Module | What Was Covered |
 |---|---|
 | **SELECT Basics** | Projection, aliasing, selecting from tables |
@@ -101,42 +110,51 @@ Every SQL skill is built on these. This chapter is a thorough ground-up study of
 | **Subqueries** | Scalar, correlated, and nested subqueries |
 | **Joins** | `INNER`, `LEFT`, `RIGHT`, `FULL OUTER`, multi-table joins |
 | **Window Functions** | `ROW_NUMBER`, `RANK`, `DENSE_RANK`, `LEAD`, `LAG`, `OVER()` |
-
-> This is the longest chapter — and intentionally so. Fundamentals done properly are what every advanced query is built on.
-
+| **INSERT Data** | Basic `INSERT` syntax, multiple rows, `INSERT...SELECT` |
+| **UPDATE & DELETE Data** | Modifying existing records, `UPDATE` with joins, safe deletions |
+| **Transactions Basics** | `BEGIN`, `COMMIT`, `ROLLBACK`, ensuring data consistency |
+| **Theory** | Optional theoretical foundations including Relational Algebra |
+ 
+> This is the longest chapter — and intentionally so. Fundamentals done properly are what every advanced query is built on. The Theory section provides optional deeper understanding for those curious about the mathematical foundations of SQL.
+ 
 </details>
 
 <details>
 <summary><b>🏗️ 02 — Database Design &nbsp;|&nbsp; Before the First Query</b></summary>
 <br/>
-
 Good queries start with good schemas. This chapter is about learning to *design* databases — understanding how data relates before a single row is inserted.
-
-| Module | What Was Covered |
+ 
+| Module | What's Covered |
 |---|---|
 | **ER Diagrams** | Entity-relationship modeling, cardinality, primary & foreign keys |
-
-> Schema design is the silent skill that determines whether a database scales gracefully or collapses under its own weight.
-
+| **CREATE TABLE** | Table creation syntax, defining structure with DDL |
+| **Data Types** | Choosing appropriate types: `INT`, `VARCHAR`, `DATE`, `DECIMAL`, etc. |
+| **Constraints** | `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `CHECK`, `NOT NULL`, `DEFAULT` |
+| **Normalization** | 1NF, 2NF, 3NF, BCNF — eliminating redundancy and anomalies |
+ 
+> Schema design is the silent skill that determines whether a database scales gracefully or collapses under its own weight. Normalization ensures your data remains consistent and efficient.
+ 
 </details>
 
 <details>
 <summary><b>⚡ 03 — Advanced Topics &nbsp;|&nbsp; Beyond Queries, Into Systems</b></summary>
 <br/>
-
 This chapter brings together everything that makes SQL powerful beyond basic querying — from writing cleaner, more expressive queries to building intelligence directly into the database itself.
-
+ 
 | Module | What's Covered |
 |---|---|
 | **CTEs & Recursive Queries** | Common Table Expressions, hierarchical data traversal, self-referencing structures |
 | **Query Optimization** | Execution plans, cost analysis, writing efficient queries |
 | **Indexing** | Index types, when to index, trade-offs, and performance impact |
+| **ALTER & DROP Operations** | Modifying schemas, adding/removing columns, managing tables |
+| **MERGE & UPSERT** | Insert-or-update logic, handling duplicates, conflict resolution |
+| **Advanced Transactions** | Savepoints, isolation levels, handling concurrent access |
 | **Views** | Reusable query abstractions, security layers, simplifying complex joins |
 | **Triggers** | Event-driven automation, maintaining data integrity, audit trails |
 | **Stored Procedures** | Encapsulating business logic, parameterized operations, database-side functions |
-
+ 
 > This is where SQL stops being just a query language and becomes a system design tool — combining expressive syntax with database-embedded logic.
-
+ 
 </details>
 
 <details>
