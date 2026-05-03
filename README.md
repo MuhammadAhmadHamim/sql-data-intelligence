@@ -47,9 +47,7 @@ sql-data-intelligence/
 │       ├── Window_Functions/
 │       ├── INSERT_Data/                    
 │       ├── UPDATE_DELETE_Data/             
-│       ├── Transactions_Basics/
-|       └── Theory/
-|           ├── Relational_Algebra/            
+│       └──Transactions_Basics/          
 │
 ├── 🏗️ 02_Database_Design/
 │       ├── ER_Diagrams/
@@ -71,11 +69,11 @@ sql-data-intelligence/
 │
 ├── 🚀 05_Projects/
 │       └── Imaginary_Product_Project/
-│           ├── PROJECT_README.md            # README file
-|           ├── schema.sql                   # Table creation scripts
-|           ├── sample_data.sql              # Sample data for testing
+│           ├── challenges_breakdown/
+|           ├── PROJECT_README.md            # README file
 |           ├── quality_analysis.sql         # Complete solution query
-|           └── challenges_breakdown/
+|           ├── sample_data.sql              # Sample data for testing
+|           └── schema.sql                   # Table creation scripts
 │
 ├── 🐍 06_SQL_with_Python/
 │       └── → Integration of SQL with Python for data extraction,
@@ -83,7 +81,7 @@ sql-data-intelligence/
 │
 ├── 🏆 07_Certifications/
 │       └── → Verified certifications and achievements from platforms
-│             like HackerRank, Oracle, etc.
+│             like Coddy, Simplilearn, etc.
 │
 └── README.md
 ```
@@ -113,7 +111,6 @@ Every SQL skill is built on these. This chapter is a thorough ground-up study of
 | **INSERT Data** | Basic `INSERT` syntax, multiple rows, `INSERT...SELECT` |
 | **UPDATE & DELETE Data** | Modifying existing records, `UPDATE` with joins, safe deletions |
 | **Transactions Basics** | `BEGIN`, `COMMIT`, `ROLLBACK`, ensuring data consistency |
-| **Theory** | Optional theoretical foundations including Relational Algebra |
  
 > This is the longest chapter — and intentionally so. Fundamentals done properly are what every advanced query is built on. The Theory section provides optional deeper understanding for those curious about the mathematical foundations of SQL.
  
