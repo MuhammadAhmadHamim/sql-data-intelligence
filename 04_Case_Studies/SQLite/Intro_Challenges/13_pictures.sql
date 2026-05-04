@@ -29,10 +29,10 @@ In this challenge, we would like to examine this hypothesis. Follow these steps:
 -> Order the results by day_rank in ascending order
 */
 WITH stats AS (
-SELECT day_of_month,
-    ink_liters - LAG(ink_liters, 1) OVER(ORDER BY day_of_month) AS ink_diff,
-    colors_num - LAG(colors_num, 1) OVER(ORDER BY day_of_month) AS colors_diff
-FROM picture_characteristics
+    SELECT day_of_month,
+        ink_liters - LAG(ink_liters, 1) OVER(ORDER BY day_of_month) AS ink_diff,
+        colors_num - LAG(colors_num, 1) OVER(ORDER BY day_of_month) AS colors_diff
+    FROM picture_characteristics
 )
 
 SELECT stats.day_of_month,
