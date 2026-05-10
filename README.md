@@ -204,7 +204,7 @@ Planned topics include:
 ![Certificate Preview](./07_Certifications/sqlite_fundamentals_certificate.png)
 
 **Issue date:** 10 May 2026  
-**Issued by:** Coddy
+**Issued by:** Coddy  
 **Credential ID:** Vlw83F-sqlite-oRigJZ  
 
 **What I Learned:**
