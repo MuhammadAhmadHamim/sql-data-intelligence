@@ -199,7 +199,23 @@ Planned topics include:
 <summary><b>🏆 07 — Certifications &nbsp;|&nbsp; In Progress</b></summary>
 <br/>
 
-This folder is reserved for completed SQL certifications and their associated materials. Currently being filled — check back as the semester progresses.
+## 🏆 Certifications
+
+[![SQLite Fundamentals](https://img.shields.io/badge/SQL-Fundamentals-blue?style=for-the-badge&logo=sqlite)]
+
+![Certificate Preview](./07_Certifications/sqlite_fundamentals_certificate.png)
+
+**Issue date:** 10 May 2026  
+**Issued by:** Coddy  
+**Credential ID:** Vlw83F-sqlite-oRigJZ  
+
+**What I Learned:**
+- ✅ Selection basics and Aggregate functions
+- ✅ Advanced querying with Window Functions, CTEs, Subqueries
+- ✅ Multi-table joins and complex aggregations
+- ✅ Real-world project: Quality Analysis Project
+
+📜 [**View Full Certificate (PDF)**](./07_Certifications/Vlw83F-sqlite-oRigJZ.pdf)
 
 </details>
 
