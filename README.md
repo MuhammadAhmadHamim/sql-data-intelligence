@@ -201,12 +201,10 @@ Planned topics include:
 
 ## 🏆 Certifications
 
-[![SQLite Fundamentals](https://img.shields.io/badge/SQL-Fundamentals-blue?style=for-the-badge&logo=sqlite)]
-
 ![Certificate Preview](./07_Certifications/sqlite_fundamentals_certificate.png)
 
 **Issue date:** 10 May 2026  
-**Issued by:** Coddy  
+**Issued by:** Coddy
 **Credential ID:** Vlw83F-sqlite-oRigJZ  
 
 **What I Learned:**
@@ -215,7 +213,7 @@ Planned topics include:
 - ✅ Multi-table joins and complex aggregations
 - ✅ Real-world project: Quality Analysis Project
 
-📜 [**View Full Certificate (PDF)**](./07_Certifications/Vlw83F-sqlite-oRigJZ.pdf)
+📜 [**View Full Certificate (PDF)**](https://coddy.tech/certifications/Vlw83F-sqlite-oRigJZ)
 
 </details>
 
