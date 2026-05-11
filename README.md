@@ -199,8 +199,6 @@ Planned topics include:
 <summary><b>🏆 07 — Certifications &nbsp;|&nbsp; In Progress</b></summary>
 <br/>
 
-## 🏆 Certifications
-
 ![Certificate Preview](./07_Certifications/sqlite_fundamentals_certificate.png)
 
 **Issue date:** 10 May 2026  
