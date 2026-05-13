@@ -80,8 +80,8 @@ sql-data-intelligence/
 │             analysis, and workflow automation.
 │
 ├── 🏆 07_Certifications/
-│       └── → Verified certifications and achievements from platforms
-│             like Coddy, Simplilearn, etc.
+|       ├── sqlite_fundamentals_certificate.png
+│       └── Vlw83F-sqlite-oRigJZ.pdf
 │
 └── README.md
 ```
