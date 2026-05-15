@@ -93,7 +93,7 @@ sql-data-intelligence/
 <details>
 <summary><b>📘 01 — Fundamentals &nbsp;|&nbsp; The Query Foundation</b></summary>
 <br/>
-Every SQL skill is built on these. This chapter is a thorough ground-up study of the language — not just syntax, but *thinking relationally*.
+Every SQL skill is built on these. This chapter is a thorough ground-up study of the language — not just syntax, but thinking relationally.
  
 | Module | What Was Covered |
 |---|---|
@@ -119,7 +119,7 @@ Every SQL skill is built on these. This chapter is a thorough ground-up study of
 <details>
 <summary><b>🏗️ 02 — Database Design &nbsp;|&nbsp; Before the First Query</b></summary>
 <br/>
-Good queries start with good schemas. This chapter is about learning to *design* databases — understanding how data relates before a single row is inserted.
+Good queries start with good schemas. This chapter is about learning to design databases — understanding how data relates before a single row is inserted.
  
 | Module | What's Covered |
 |---|---|
