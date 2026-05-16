@@ -57,9 +57,15 @@ sql-data-intelligence/
 │       └── Normalization/                    
 │
 ├── ⚡ 03_Advanced_Topics/
-│       └── → Exploration of advanced topics of SQL including CTEs_Recursive_Queries,
-|               Query_Optimization, Indexing, ALTER_DROP_Operations, MERGE_UPSERT,
-|                Advanced_Transactions, Views, Triggers, Stored_Procedures and many more.
+│       ├── CTEs_Recursive_Queries/
+│       ├── Query_Optimization/
+│       ├── Indexing/
+│       ├── ALTER_DROP_Operations/
+│       ├── MERGE_UPSERT/
+│       ├── Advanced_Transactions/
+│       ├── Views/
+│       ├── Triggers/
+│       └── Stored_Procedures/
 │
 ├── 🔍 04_Case_Studies/
 │       ├── SQLite/
