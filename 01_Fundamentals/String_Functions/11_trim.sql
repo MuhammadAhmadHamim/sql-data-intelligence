@@ -1,5 +1,10 @@
 /*
-Delete the unnecessary spaces in the name column.
+Each phone may include leading/trailing spaces and any number of - separators.
+Return id and a column clean with all spaces and dashes removed.
+Order by id.
 */
-SELECT TRIM(name)
-FROM record;
+SELECT id,
+        -- strip spaces and dashes
+        REPLACE(REPLACE(TRIM(phone), '-', ''), ' ', '') AS clean
+FROM contacts
+ORDER BY id;
