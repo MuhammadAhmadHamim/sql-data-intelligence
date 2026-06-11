@@ -40,8 +40,10 @@ sql-data-intelligence/
 │       ├── Arithmetic_Operations/
 │       ├── String_Functions/
 │       ├── Date_Functions/
+|       ├── Conditional_Logic/ 
 │       ├── Aggregate_Functions/
 │       ├── GROUP_BY_HAVING/
+|       ├── Conditional_Aggregation/
 │       ├── Subqueries/
 │       ├── Joins_Multiple_Tables/
 │       ├── Window_Functions/
@@ -109,8 +111,10 @@ Every SQL skill is built on these. This chapter is a thorough ground-up study of
 | **Arithmetic Expressions** | Column-level calculations, derived fields |
 | **String Functions** | `UPPER`, `LOWER`, `CONCAT`, `TRIM`, `SUBSTRING`, `REPLACE` |
 | **Date Functions** | `NOW()`, `DATEDIFF`, `DATE_FORMAT`, temporal arithmetic |
+| **Conditional Logic** | `CASE WHEN`, `IF`, `COALESCE`, `NULLIF` — handling conditional values |
 | **Aggregate Functions** | `COUNT`, `SUM`, `AVG`, `MIN`, `MAX` |
 | **GROUP BY & HAVING** | Grouping rows, filtering aggregates, nested logic |
+| **Conditional Aggregation** | `SUM(CASE WHEN...)`, `COUNT(CASE WHEN...)` — pivoting and flexible aggregations |
 | **Subqueries** | Scalar, correlated, and nested subqueries |
 | **Joins** | `INNER`, `LEFT`, `RIGHT`, `FULL OUTER`, multi-table joins |
 | **Window Functions** | `ROW_NUMBER`, `RANK`, `DENSE_RANK`, `LEAD`, `LAG`, `OVER()` |
