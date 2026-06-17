@@ -44,6 +44,7 @@ sql-data-intelligence/
 │       ├── Aggregate_Functions/
 │       ├── GROUP_BY_HAVING/
 |       ├── Conditional_Aggregation/
+|       ├── Set_Operations/
 │       ├── Subqueries/
 │       ├── Joins_Multiple_Tables/
 │       ├── Window_Functions/
@@ -115,6 +116,7 @@ Every SQL skill is built on these. This chapter is a thorough ground-up study of
 | **Aggregate Functions** | `COUNT`, `SUM`, `AVG`, `MIN`, `MAX` |
 | **GROUP BY & HAVING** | Grouping rows, filtering aggregates, nested logic |
 | **Conditional Aggregation** | `SUM(CASE WHEN...)`, `COUNT(CASE WHEN...)` — pivoting and flexible aggregations |
+| **Set Operations** | `UNION`, `INTERSECT`, `EXCEPT` — combining multiple result sets |
 | **Subqueries** | Scalar, correlated, and nested subqueries |
 | **Joins** | `INNER`, `LEFT`, `RIGHT`, `FULL OUTER`, multi-table joins |
 | **Window Functions** | `ROW_NUMBER`, `RANK`, `DENSE_RANK`, `LEAD`, `LAG`, `OVER()` |
