@@ -55,8 +55,6 @@ sql-data-intelligence/
 ├── 🏗️ 02_Database_Design/
 │       ├── ER_Diagrams/
 │       ├── CREATE_OBJECTS/                  
-│       ├── Data_Types/                     
-│       ├── Constraints/
 │       └── Normalization/                    
 │
 ├── ⚡ 03_Advanced_Topics/
@@ -137,8 +135,6 @@ Good queries start with good schemas. This chapter is about learning to design d
 |---|---|
 | **ER Diagrams** | Entity-relationship modeling, cardinality, primary & foreign keys |
 | **CREATE OBJECTS** | Object creation syntax, defining structure with DDL |
-| **Data Types** | Choosing appropriate types: `INT`, `VARCHAR`, `DATE`, `DECIMAL`, etc. |
-| **Constraints** | `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `CHECK`, `NOT NULL`, `DEFAULT` |
 | **Normalization** | 1NF, 2NF, 3NF, BCNF — eliminating redundancy and anomalies |
  
 > Schema design is the silent skill that determines whether a database scales gracefully or collapses under its own weight. Normalization ensures your data remains consistent and efficient.
