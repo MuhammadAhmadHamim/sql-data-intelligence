@@ -59,11 +59,7 @@ sql-data-intelligence/
 │
 ├── ⚡ 03_Advanced_Topics/
 │       ├── CTEs_Recursive_Queries/
-│       ├── Query_Optimization/
-│       ├── Indexing/
 │       ├── ALTER_DROP_Operations/
-│       ├── MERGE_UPSERT/
-│       ├── Advanced_Transactions/
 │       ├── Views/
 │       ├── Triggers/
 │       └── Stored_Procedures/
@@ -149,11 +145,7 @@ This chapter brings together everything that makes SQL powerful beyond basic que
 | Module | What's Covered |
 |---|---|
 | **CTEs & Recursive Queries** | Common Table Expressions, hierarchical data traversal, self-referencing structures |
-| **Query Optimization** | Execution plans, cost analysis, writing efficient queries |
-| **Indexing** | Index types, when to index, trade-offs, and performance impact |
 | **ALTER & DROP Operations** | Modifying schemas, adding/removing columns, managing tables |
-| **MERGE & UPSERT** | Insert-or-update logic, handling duplicates, conflict resolution |
-| **Advanced Transactions** | Savepoints, isolation levels, handling concurrent access |
 | **Views** | Reusable query abstractions, security layers, simplifying complex joins |
 | **Triggers** | Event-driven automation, maintaining data integrity, audit trails |
 | **Stored Procedures** | Encapsulating business logic, parameterized operations, database-side functions |
