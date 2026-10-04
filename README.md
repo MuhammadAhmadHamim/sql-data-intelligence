@@ -82,11 +82,9 @@ sql-data-intelligence/
 │       └── → Integration of SQL with Python for data extraction,
 │             analysis, and workflow automation.
 │
-├── 🏆 07_Certifications/
-|       ├── sqlite_fundamentals_certificate.png
-│       └── Vlw83F-sqlite-oRigJZ.pdf
-│
-└── README.md
+└── 🏆 07_Certifications/
+        ├── sqlite_fundamentals_certificate.png
+        └── Vlw83F-sqlite-oRigJZ.pdf
 ```
 
 ---
